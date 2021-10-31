@@ -1,0 +1,28 @@
+*{  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgb(34, 31, 31);
+    background-color: rgb(230, 230, 230);
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 1.5cm;
+    margin-bottom: 45px;
+}
+
+h2{
+    font-size: 30px;
+    margin-left: 1cm;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 25px;
+    margin-left: 1cm;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-left: 1cm;
+    font-size: 20px;
+    font-style: italic;
+}

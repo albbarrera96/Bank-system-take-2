@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTEMA DE BANCO</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+</head>
+<body>
+        <h1>SISTEMA DE BANCO: TAKE 2</h1>
+    <div style="border-style: solid ;" id="vue-app">
+        <H2>DINERO EN EL BOLSILLO: </H2>
+        <h3 style="color:rgb(1, 1, 131)">{{bolsillo - depositar}}$</h3>
+        <input type = "number" v-model= "bolsillo">
+        <H2>DEPOSITAR:</H2>
+        <h3>{{depositar}}$</h3>
+        <input type = "number" v-model= "depositar">
+        <H2>RETIRAR: </H2>
+        <h3 style="color:brown">{{retirar}}$</h3>
+        <input type = "number" v-model= "retirar">
+        <H2>DINERO EN CUENTA:</H2>
+        <h3 style="color:rgb(12, 83, 12); font-size: 35px;">{{ cuenta + (depositar) - (retirar)  }}$</h3>
+    </div>    
+    <script src="app.js"></script>
+</body>
+</html>
